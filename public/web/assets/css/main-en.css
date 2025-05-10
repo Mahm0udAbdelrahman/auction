@@ -1,0 +1,913 @@
+/****General Rules******/
+
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+
+body {
+  font-family: "Almarai", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none !important;
+}
+/****top Navbar and primary navbar*******/
+.top-nav {
+  background-color: black;
+}
+.top-nav .nav-link,
+.primary-navbar .nav-link {
+  color: #fff;
+}
+.top-nav .nav-link:hover,
+.primary-navbar .nav-link:hover {
+  color: #ddd;
+}
+.primary-navbar .nav-link.active {
+  color: #386bf6;
+}
+.top-nav svg {
+  margin: 0 4px;
+}
+
+.primary-navbar {
+  background-color: #4d4d4d;
+  padding: 12px 0 !important;
+  font-size: 16px;
+}
+
+.navbar-logo-text h4 {
+  font-size: 18px;
+}
+.navbar-logo-text {
+  color: white;
+  height: fit-content;
+}
+.navbar-logo-text span {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.navbar-logo-text .status {
+  background: #34c759;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.navbar-nav li {
+  margin: 0 10px !important;
+}
+.navbar-custom-icon {
+  background-color: #386bf6;
+  border-radius: 4px;
+  padding: 5px;
+  width: 40px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.primary-navbar .dropdown-menu {
+  left: 0;
+  right: auto;
+  transform-origin: top left;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
+  -moz-transition: opacity 0.3s ease, transform 0.3s ease;
+  -ms-transition: opacity 0.3s ease, transform 0.3s ease;
+  -o-transition: opacity 0.3s ease, transform 0.3s ease;
+  text-align: left;
+  width: 200px;
+}
+.primary-navbar .dropdown-menu li {
+  padding: 10px;
+}
+
+.primary-navbar .dropdown-menu.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.primary-navbar .dropdown-item:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+/*******Login page ********/
+.login-page {
+  padding: 70px 0;
+}
+.login-page h1 {
+  font-size: 30px;
+}
+.login-page form .form-group .input-group-text {
+  background-color: white;
+}
+.login-page form .form-group .input-group-text input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.login-page form .form-group .input-group-text i {
+  color: #386bf6;
+  font-size: 20px;
+}
+
+.login-page .text-black {
+  color: black;
+}
+.login-page hr {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.navbar-toggler {
+  background-color: #386bf6;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  width: 20px;
+  background-color: transparent !important;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><rect width="30" height="5" fill="white"/><rect y="10" width="30" height="5" fill="white"/><rect y="20" width="30" height="5" fill="white"/></svg>') !important;
+}
+
+/*****Mazad Page*******/
+.elmazad-page .card {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 15px;
+}
+.elmazad-page .carousel .carousel-item img {
+  object-fit: cover;
+  border-radius: 10px;
+      height: 250px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.elmazad-page .accordion-item {
+  border: none;
+  outline: none;
+}
+
+.elmazad-page .accordion-button {
+  color: #386bf6;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: none;
+}
+.elmazad-page .accordion-button {
+  width: 200px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.elmazad-page .accordion-body {
+  padding: 0;
+}
+.elmazad-page .aside {
+  background: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.elmazad-page .aside select,
+.elmazad-page .aside input,
+.elmazad-page .km-input {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.elmazad-page .aside input:focus,
+.elmazad-page .aside select:focus {
+  box-shadow: none;
+}
+.elmazad-page .mazad-btn {
+  background-color: #3b82f6;
+  color: white;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.elmazad-page .mazad-btn:hover {
+  background-color: #2873eb;
+}
+.elmazad-page hr {
+  background-color: rgba(109, 107, 107, 0.6);
+}
+
+.elmazad-page .car-info .price {
+  color: #3b82f6;
+  font-weight: bold;
+  font-size: 16px;
+}
+.elmazad-page .auction-details,
+.mazad-details .auction-details {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.elmazad-page .auction-details .badge,
+.mazad-details .badge,
+.notification-card .badge {
+  background-color: #f5f5f5;
+  color: #212529;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.notification-card .badge {
+  background-color: #e2e7f5;
+}
+.elmazad-page .auction-details .badge-winner,
+.elmazad-page .card .span-document {
+  color: #9db2ce;
+}
+.elmazad-page .auction-details .badge-winner,
+.elmazad-page .card .span-title {
+  color: #34c759;
+}
+
+.carousel-indicators {
+  right: 0;
+  bottom: 10px;
+}
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 80px;
+  background-color: #ccc;
+  border: none;
+  margin: 0 3px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+}
+.carousel-indicators .active {
+  background-color: #ffffff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: auto;
+  bottom: 10px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.carousel-control-prev {
+  left: 50px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 15px;
+  height: 15px;
+}
+.carousel-control-next {
+  left: 10px;
+}
+.mazad-user-info .user-img img {
+  width: 50px;
+  height: 50px;
+}
+.mazad-user-info {
+  font-size: 14px;
+}
+.mazad-user-info .user-info {
+  line-height: 18px;
+}
+.km-input span {
+  color: #7b7c7f;
+  font-weight: lighter;
+}
+.accordion-button::after {
+  margin: 0 10px;
+}
+.elmazad-page .auction-details .fa-user {
+  color: #9db2ce;
+}
+
+/******mazad details page**********/
+.mazad-details-header {
+  font-size: 22px;
+}
+.mazad-details hr {
+  border: 1px solid rgba(247, 244, 244, 0.3);
+}
+
+.mazad-details-body > p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.mazad-details-body span {
+  color: #386bf6;
+}
+
+.border-card-img {
+  border: 2px solid #ffcc00;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.zayed-now-btn {
+  background-color: #4d4d4d;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 15px 50px;
+  width: 100%;
+}
+
+.zayed-now-btn div button {
+  background-color: #386bf6;
+  color: white;
+  width: 330px;
+  height: 50px;
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.zayed-now-btn div button.btn-dark {
+  background-color: #071d35;
+}
+
+/*********choose services************/
+
+.choose-service .option-radio {
+  accent-color: #f1c40f; /* Customize radio button color */
+  width: 18px;
+  height: 18px;
+}
+.choose-service .form-check-input:checked {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  outline: none;
+}
+.choose-service .option-radio:checked + label {
+  border: 1px solid #ffc107;
+}
+
+/********insurance pay section**************/
+.insurance-section .insurance-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.insurance-section .insurance-img img {
+  width: 80px;
+  max-width: 100%;
+}
+.insurance-img,
+.insurance-price {
+  background-color: #ffe5e6;
+}
+.insurance-img.received-money,
+.insurance-price.received-money {
+  background-color: #ebf0fe;
+}
+.insurance-section .insurance-price {
+  width: fit-content;
+  padding: 5px 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.insurance-section .insurance-price .insurance-salary {
+  color: #34c759;
+}
+.insurance-section .insurance-footer {
+  width: 850px;
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+.insurance-section .insurance-footer form input {
+  background-color: #f5f5f5;
+}
+
+/**********Account settings************/
+.account-section .account-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.account-section .account-body {
+  width: 632px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.account-section .account-body form .form-group {
+  background-color: #f5f5f5;
+}
+.account-section .account-body form .form-group svg,
+.account-section .account-body form .form-group i {
+  color: #7b7b7b;
+}
+.account-section .account-body form input {
+  background-color: initial;
+  border: none;
+  outline: none;
+}
+.account-section .account-img img {
+  width: 130px;
+  height: 130px;
+  max-width: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.account-img {
+  background-color: #333333;
+}
+
+.account-section .upload-container input[type="file"] {
+  display: none;
+}
+.account-section .upload-container svg {
+  cursor: pointer;
+}
+.account-section .upload-text {
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+/*********Faqs***************/
+.faqs-section .accordion .accordion-button {
+  background-color: #f5f5f5;
+}
+
+/*********terms**********/
+.terms-section .terms-body {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+.terms-section .terms-body p {
+  line-height: 2.3;
+  width: 990px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/**********Notification************/
+.notification-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 30px 0;
+}
+.notification-section hr {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/*****Empty Mazad********/
+
+.empty-car-btn {
+  width: 80px;
+  height: 80px;
+  color: #386bf6;
+  font-size: 38px;
+  clip-path: circle(70px at 60px 70px);
+}
+.empty-car-btn:hover {
+  color: #245af0;
+}
+
+/******confirm sell btns******/
+.confirm-sell-btns button {
+  width: 40%;
+}
+/********add car*************/
+.add-car-form input,
+.add-car-form select,
+.add-car-form .km-input,
+.add-car-form textarea,
+.add-car-form button {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.add-car-form .prev-btn-container .prev {
+  background-color: #ebf0fe;
+  border: none;
+  color: #386bf6;
+}
+.add-car-form .upload-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-car-form .upload-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.add-car-form .last-upload-card .progress-bar {
+  background-color: #ffcc00;
+}
+.add-car-form .progress-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.add-car-form .progress {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.add-car-form .progress-bar {
+  height: 5px;
+}
+
+.add-car-form .progress-text {
+  position: absolute;
+  left: 0px;
+  top: -20px;
+  font-size: 17px;
+  color: #333;
+}
+.add-car-information {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  width: 500px;
+  max-width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+}
+.add-car-information p {
+  width: 406px;
+  max-width: 100%;
+}
+.add-car-photos img {
+  width: 80px;
+  height: 80px;
+}
+
+/*****hero section********/
+.hero-section {
+  padding: 160px 0;
+  z-index: 1;
+}
+.hero-section .hero-btn {
+  width: 160px;
+  padding: 15px 0;
+}
+.hero-section .hero-content span {
+  color: #4d4d4d !important;
+}
+.hero-section p {
+  line-height: 2.4;
+}
+.hero-section .hero-contact {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.hero-section .hero-contact:hover {
+  background-color: #007bff;
+  color: white;
+}
+.main-heading {
+  color: #031b4e;
+}
+.main-para {
+  color: #4d5b7c;
+}
+.hero-section img {
+  width: 100%;
+}
+#particles-js {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+#particles-js canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*********quality section**************/
+.quality {
+  background-color: #f8f8f8;
+  margin-bottom: 50px;
+}
+.quality .quality-bg img {
+  width: 100%;
+}
+.quality p {
+  line-height: 2;
+}
+
+.discover-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #4d4d4d;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.quality .nav-link.active {
+  background-color: #4d4d4d;
+  color: white !important;
+}
+.quality .el-tab {
+  padding: 16px 45px;
+}
+
+/******Agency******/
+
+
+.agency-list {
+  background-color: #181818;
+  padding: 8px 0px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1000px);
+    -webkit-transform: translateX(1000px);
+    -moz-transform: translateX(1000px);
+    -ms-transform: translateX(1000px);
+    -o-transform: translateX(1000px);
+}
+100%{
+  transform: translateX(0);
+}
+}
+.agency-list .slider:hover .slide-track {
+  animation-play-state: paused;
+}
+.agency-list .slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: 4200px;
+  -moz-column-gap: 50px;
+  column-gap: 50px;
+  align-items: center;
+  text-align: center;
+  -webkit-animation: scroll 40s linear infinite;
+}
+.agency-list .slider .slide {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.agency-list .slider .slide h3 {
+  margin: 0;
+  color: #e2e2e2;
+  font-size: 1.92rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.agency-list .slider .slide h3:hover {
+  color: #4d4d4d;
+}
+.agency-list-banner{
+  overflow-x: hidden;
+}
+.agency-list {
+  background-color: #271f10;
+  padding: 8px 0px;
+}
+/****section counter******/
+.counter-section {
+  background-color: #4d4d4d;
+  padding: 80px 0;
+  color: white;
+  text-align: center;
+}
+.counter-box .counter{
+  color: #179510;
+  font-size: 36px;
+}
+.counter-box p{
+  color: #35404E;
+}
+.counter-box {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 30px 60px rgba(0, 19, 87, 0.06);
+
+
+}
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 50px 0;
+}
+.footer-about{
+  width: 400px;
+  line-height: 2.0;
+  max-width: 100%;
+}
+.footer-copyright{
+  color: #3fbe39;
+
+}
+.footer-copyright:hover{
+  color: #30962a;
+
+}
+/*****media query******/
+@media (max-width: 230px) {
+  .login-page h1 {
+    font-size: 20px;
+  }
+  .login-page .login-logo {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .insurance-price {
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 313px) {
+  .elmazad-page .auction-details .badge {
+    width: 100%;
+  }
+  .carousel-indicators {
+    bottom: 18px;
+  }
+  .notification-card {
+    text-align: center;
+  }
+  .notification-header {
+    justify-content: center !important;
+    gap: 5px;
+  }
+  .confirm-sell-btns {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 !important;
+  }
+  .confirm-sell-btns button {
+    width: 100% !important;
+    margin: 30px 0 0 !important;
+  }
+  .add-car-photos img {
+    width: 100%;
+    height: initial;
+  }
+  .add-car-photos {
+    margin: 0 auto;
+  }
+  .hero-btns-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar-custom-icon {
+    display: none !important;
+  }
+  .sidebar-category {
+    flex-wrap: wrap;
+  }
+  .dropdown-menu {
+    width: 100%;
+  }
+  .hero-section {
+    padding: 80px 0;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-btns-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .quality {
+    text-align: center;
+    height: fit-content;
+  }
+
+  .quality .quality-btns {
+    justify-content: center;
+  }
+}
+@media (max-width: 1400px) {
+  .sidebar-price {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 700px) {
+  .zayed-now-btn div {
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 10px !important;
+  }
+  .zayed-now-btn div {
+    padding: 15px 20px;
+  }
+  .quality-content {
+    padding: 40px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .zayed-now-btn div button {
+    width: 100%;
+  }
+  .zayed-now-btn {
+    padding: 5px;
+  }
+  .quality-content {
+    padding: 20px !important;
+  }
+}
